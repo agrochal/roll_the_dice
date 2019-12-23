@@ -17,6 +17,13 @@
     }
     dice.appendChild(row);
   }
+
+  var button = document.getElementById('button');
+  button.addEventListener("click", function () {
+    for (var i = 0; i < 6; i++) {
+      setTimeout(function () { change(Math.floor(Math.random() * 6) + 1); }, 250 * (i + 1));
+    }
+  });
 })(jQuery, Drupal);
 
 var dots = document.getElementsByClassName('dot');
@@ -56,10 +63,3 @@ else {
     }
   }
 }
-
-var button = document.getElementById('button');
-button.addEventListener("click", function () {
-  for (var i = 0; i < 6; i++) {
-    setTimeout(function () { change(Math.floor(Math.random() * 6) + 1); }, 250 * (i + 1));
-  }
-});
