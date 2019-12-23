@@ -1,0 +1,10 @@
+styles:
+  css:
+    theme:
+      css/style.css: {}
+
+scripts:
+  js:
+    js/script.js: {}
+  dependencies:
+    - core/jquery
