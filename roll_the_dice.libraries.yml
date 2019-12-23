@@ -4,7 +4,9 @@ styles:
       css/style.css: {}
 
 scripts:
+  version: 1.x
   js:
     js/script.js: {}
   dependencies:
     - core/jquery
+    - core/drupal
