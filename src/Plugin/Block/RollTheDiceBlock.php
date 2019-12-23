@@ -9,7 +9,7 @@ use Drupal\Core\Access\AccessResult;
  *
  * @Block(
  *   id = "RollTheDiceBlock",
- *   admin_label = @Translation("Javascript dice roller"),
+ *   admin_label = @Translation("JavaScript dice roller"),
  * )
  */
 class RollTheDiceBlock extends BlockBase {
