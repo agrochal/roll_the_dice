@@ -1,4 +1,4 @@
 name: Roll the dice
-description: Block with javascript dice roller
+description: Block with JavaScript dice roller
 type: module
 core: 8.x
